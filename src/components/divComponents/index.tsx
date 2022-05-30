@@ -20,7 +20,8 @@ interface Props{
   border: string
 }
 
-const DivComponents = ({backgroundColor, width, height, children, margin, minHeight, padding, maxWidth, flexDirection, flexWrap, alignContent, alignItems, justifyContent, display, borderRadius, border} : Props) => {
+const DivComponents = ({
+    backgroundColor, width, height, children, margin, minHeight, padding, maxWidth, flexDirection, flexWrap, alignContent, alignItems, justifyContent, display, borderRadius, border} : Props) => {
   return (
     <DivStyled 
       backgroundColor={backgroundColor} 
